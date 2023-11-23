@@ -1,0 +1,98 @@
+
+*{
+    font-family: italic;
+
+}
+
+body{
+    
+    background-image: url('/img/background.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: auto; 
+        
+    }
+
+a{
+    text-decoration: none;
+    color: rgb(0, 140, 255);
+
+}
+.lain{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.lab{
+    display: grid;
+    grid-column: 2/3;
+    height: 100%;
+    text-align: center;
+    gap: 15px
+
+}
+
+h1{
+    font-size: 50px;
+    font-weight:lighter;
+  
+}
+
+.clickable-textarea {
+    padding: 5px;
+    cursor: pointer;
+    resize: none;
+    overflow: hidden;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 15px;
+    
+  }
+
+  .cbox{
+    background-color: rgba(0, 0, 0, 0.534);
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+
+  }
+
+  .register{
+    place-self: center;
+    height: 50px;
+    width: 200px;
+    font-size: 30px;
+    color: #FFC337;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    pointer-events:fill;
+    cursor: pointer;
+
+
+  }
+
+
+  @media  (max-width: 800px) {
+ 
+    .clickable-textarea {
+        font-size: 15px;
+
+    }
+
+    .cbox{
+        font-size: 10px;
+
+    }
+
+    .register{
+        font-size: 20px;
+        height: 30px;
+        width: 150px;
+    }
+
+  
+  }
+  
